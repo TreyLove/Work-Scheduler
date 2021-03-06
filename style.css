@@ -87,3 +87,16 @@ textarea{
   margin-right: 40px ;
   min-width: 100px;
 }
+
+.current{
+  background-color: #77dd7788;
+}
+
+
+.previous{
+  background-color: #ff696191;
+}
+
+.later{
+  background-color: rgba(0, 255, 255, 0.644);
+}
