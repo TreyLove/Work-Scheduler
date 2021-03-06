@@ -35,7 +35,6 @@ function chartTime() {
 }
 chartTime()
 $("#currentDay").html("Today is " + moment().format("dddd, MMMM Do, YYYY."));
-
 setInterval(() => {
     chartTime()
 }, 60000);
