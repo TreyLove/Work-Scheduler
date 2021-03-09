@@ -23,13 +23,13 @@ function chartTime() {
 
     $("textArea").each(function () {
         if (parseInt($(this).data("time")) === chartHour) {
-            $(this).addClass("current")
+            $(this).attr("class", 'user-input current')
         }
         if (parseInt($(this).data("time")) > chartHour) {
-            $(this).addClass("later")
+            $(this).attr("class", 'user-input later')
         }
         if (parseInt($(this).data("time")) < chartHour) {
-            $(this).addClass("previous")
+            $(this).attr("class", 'user-input previous')
         }
     })
 }
