@@ -15,5 +15,5 @@ Description
 5. This website's functionality is powered by javascript, jquery and moment.js\
 
 
-    Pictures of the working website can be found in the website description folder
+    A picture of the working website can be found in the website description folder
     Link to the posted website: https://treylove.github.io/Work-Scheduler/
